@@ -26,4 +26,4 @@ Select Copy, and that's it.
 <h3> Obs: </h3>
 This pod was created for study purpose only
 License
-CustomTabbar is available under the MIT license. See the LICENSE file for more info.
+Copyable-Label is available under the MIT license. See the LICENSE file for more info.
