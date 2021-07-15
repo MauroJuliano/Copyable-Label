@@ -10,6 +10,7 @@ xCode 10
 
 <h2>Installation</h2>
 Cocoa Pods
+
 pod 'Copyable-Label', :git => 'https://github.com/MauroJuliano/Copyable-Label.git'
 
 <h2>Usage</h2>
