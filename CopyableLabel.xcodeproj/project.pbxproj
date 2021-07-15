@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9D85AD9326A0EDE900D3D13B /* CopyableLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D85AD9126A0EDE900D3D13B /* CopyableLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D85AD9B26A0EE2C00D3D13B /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85AD9A26A0EE2C00D3D13B /* CopyableLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D85AD8E26A0EDE900D3D13B /* CopyableLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CopyableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D85AD9126A0EDE900D3D13B /* CopyableLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyableLabel.h; sourceTree = "<group>"; };
 		9D85AD9226A0EDE900D3D13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D85AD9A26A0EE2C00D3D13B /* CopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,19 @@
 		9D85AD9026A0EDE900D3D13B /* CopyableLabel */ = {
 			isa = PBXGroup;
 			children = (
+				9D85AD9926A0EE1600D3D13B /* Classes */,
 				9D85AD9126A0EDE900D3D13B /* CopyableLabel.h */,
 				9D85AD9226A0EDE900D3D13B /* Info.plist */,
 			);
 			path = CopyableLabel;
+			sourceTree = "<group>";
+		};
+		9D85AD9926A0EE1600D3D13B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D85AD9A26A0EE2C00D3D13B /* CopyableLabel.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +105,7 @@
 				TargetAttributes = {
 					9D85AD8D26A0EDE900D3D13B = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D85AD9B26A0EE2C00D3D13B /* CopyableLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		9D85AD9726A0EDE900D3D13B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lestad.CopyableLabel;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +299,7 @@
 		9D85AD9826A0EDE900D3D13B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
