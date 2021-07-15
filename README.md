@@ -16,6 +16,7 @@ pod 'Copyable-Label', :git => 'https://github.com/MauroJuliano/Copyable-Label.gi
 <h2>Usage</h2>
 
 Storyboard
+
 Create a new UILabel in your storyboard.
 
 Set the class of the UILabel to CopyableLabel in your Storyboard or nib.
