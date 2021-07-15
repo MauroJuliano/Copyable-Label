@@ -1,4 +1,4 @@
-# Copyable-TabBar
+# Copyable-Label
 
 ![Alt Text](https://media.giphy.com/media/7hEW39u8XfRESKGASJ/giphy.gif)
 
