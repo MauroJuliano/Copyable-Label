@@ -1,5 +1,7 @@
 # Custom-TabBar
-<h1> Custom TabBar </h1>
+
+![Alt Text](https://media.giphy.com/media/7hEW39u8XfRESKGASJ/giphy.gif)
+
 
 <h2>Requirements</h2>
 
@@ -8,18 +10,18 @@ xCode 10
 
 <h2>Installation</h2>
 Cocoa Pods
-pod 'Custom-TabBar', :git => 'https://github.com/MauroJuliano/Custom-TabBar.git'
+pod 'Copyable-Label', :git => 'https://github.com/MauroJuliano/Copyable-Label.git'
 
 <h2>Usage</h2>
 
 Storyboard
-Create a new UITabBarController in your storyboard.
+Create a new UILabel in your storyboard.
 
-Set the class of the UITabBarController to CustomTabBarController in your Storyboard or nib.
+Set the class of the UILabel to CopyableLabel in your Storyboard or nib.
 
-Add a custom image icon and title for UITabBarItem of each child ViewContrroller
+Press and hold the label to activate pop over.
 
-If you need cutom color for each tab set CBTabBarItem class to tab bar items and use tintColor property
+Select Copy, and that's it.
 
 <h3> Obs: </h3>
 This pod was created for study purpose only
